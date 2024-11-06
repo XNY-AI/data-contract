@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ctype",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pubk",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_stype",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_bounty",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPubKey",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "body",
+						"type": "string"
+					}
+				],
+				"name": "sendStorage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/XNYStorage.sol": "XNYStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/XNYStorage.sol": {
+			"keccak256": "0x42df63af87479e2e439731e6871c8cd0de50515e36a51ddf83e84831af14bf0b",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://85974b9c2479cf27a4bc32a35ee0afbd13f2d7efa4c601361c5867bf1ff7fd05",
+				"dweb:/ipfs/QmW8kAmuZBEtRafiBSJbA9Eakcofz3QBtj8ShAZrms8fdV"
+			]
+		}
+	},
+	"version": 1
+}
